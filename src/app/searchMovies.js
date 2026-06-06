@@ -118,9 +118,3 @@ export default function SearchMovies(){
         </>
     )
 }
-
-<div>
-    {movies.filter(movie=> movie.poster_path).map(movie =>(
-        <MovieCard movie ={movie} key = {movie.id}/>
-    ))}
-</div>
